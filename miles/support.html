@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Miles - Support & Help</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            color: #333;
+            background-color: #f5f5f7;
+        }
+        .container {
+            background-color: white;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #000;
+            border-bottom: 3px solid #007AFF;
+            padding-bottom: 15px;
+            margin-bottom: 10px;
+        }
+        .subtitle {
+            color: #666;
+            font-size: 18px;
+            margin-bottom: 30px;
+        }
+        h2 {
+            color: #007AFF;
+            margin-top: 40px;
+            margin-bottom: 15px;
+        }
+        h3 {
+            color: #333;
+            margin-top: 25px;
+            margin-bottom: 10px;
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+        .feature-box {
+            background-color: #f0f8ff;
+            padding: 20px;
+            border-left: 4px solid #007AFF;
+            margin: 20px 0;
+            border-radius: 5px;
+        }
+        .feature-box h3 {
+            margin-top: 0;
+            color: #007AFF;
+        }
+        .tip {
+            background-color: #fff9e6;
+            padding: 15px;
+            border-left: 4px solid #ffb800;
+            margin: 15px 0;
+            border-radius: 5px;
+        }
+        .tip strong {
+            color: #ffb800;
+        }
+        .warning {
+            background-color: #ffe6e6;
+            padding: 15px;
+            border-left: 4px solid #ff3b30;
+            margin: 15px 0;
+            border-radius: 5px;
+        }
+        .warning strong {
+            color: #ff3b30;
+        }
+        ul {
+            padding-left: 25px;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        .step-list {
+            counter-reset: step-counter;
+            list-style: none;
+            padding-left: 0;
+        }
+        .step-list li {
+            counter-increment: step-counter;
+            margin-bottom: 20px;
+            padding-left: 40px;
+            position: relative;
+        }
+        .step-list li::before {
+            content: counter(step-counter);
+            background-color: #007AFF;
+            color: white;
+            font-weight: bold;
+            width: 28px;
+            height: 28px;
+            border-radius: 50%;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            position: absolute;
+            left: 0;
+            top: 0;
+        }
+        .faq-item {
+            margin-bottom: 25px;
+            padding: 15px;
+            background-color: #fafafa;
+            border-radius: 5px;
+        }
+        .faq-question {
+            font-weight: 600;
+            color: #007AFF;
+            margin-bottom: 8px;
+        }
+        .faq-answer {
+            color: #333;
+        }
+        .contact-box {
+            background-color: #007AFF;
+            color: white;
+            padding: 25px;
+            border-radius: 10px;
+            margin-top: 40px;
+            text-align: center;
+        }
+        .contact-box h2 {
+            color: white;
+            margin-top: 0;
+        }
+        .contact-box a {
+            color: white;
+            text-decoration: underline;
+        }
+        code {
+            background-color: #f4f4f4;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-family: 'Courier New', monospace;
+            font-size: 14px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        th {
+            background-color: #007AFF;
+            color: white;
+            font-weight: 600;
+        }
+        tr:hover {
+            background-color: #f5f5f5;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Miles - Support & Help</h1>
+        <p class="subtitle">Your comprehensive guide to tracking vehicle mileage and fuel consumption</p>
+
+        <div class="section">
+            <h2>Getting Started</h2>
+
+            <h3>Welcome to Miles!</h3>
+            <p>Miles helps you track your vehicle's fuel consumption, mileage, and costs. Whether you drive a fuel-powered car or an electric vehicle, Miles provides detailed statistics and insights into your vehicle's efficiency.</p>
+
+            <div class="feature-box">
+                <h3>First Time Setup</h3>
+                <ol class="step-list">
+                    <li>Open the app and tap the <strong>Settings</strong> tab at the bottom</li>
+                    <li>Tap <strong>Vehicles</strong> and then the <strong>+</strong> button to add your first vehicle</li>
+                    <li>Enter your vehicle's name and select the type (Fuel or Electric)</li>
+                    <li>Set your preferred currency and units in Settings</li>
+                    <li>Start adding fuel-ups or charging sessions from the Dashboard!</li>
+                </ol>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Main Features</h2>
+
+            <div class="feature-box">
+                <h3>📊 Dashboard</h3>
+                <p>Your command center for current vehicle statistics:</p>
+                <ul>
+                    <li><strong>Average Fuel Economy:</strong> Shows km/L, km/kWh, MPG, or mi/kWh based on your settings</li>
+                    <li><strong>Total Spending:</strong> Sum of all costs for the selected vehicle</li>
+                    <li><strong>Cost per Distance:</strong> How much you spend per 100km or 100mi</li>
+                    <li><strong>Quick Add:</strong> Tap the <strong>+</strong> button to add a new entry</li>
+                </ul>
+                <div class="tip">
+                    <strong>Tip:</strong> Switch between vehicles using the dropdown at the top of the screen. The app remembers your last selection.
+                </div>
+            </div>
+
+            <div class="feature-box">
+                <h3>📈 History</h3>
+                <p>View your vehicle's performance over time:</p>
+                <ul>
+                    <li><strong>Three Interactive Charts:</strong>
+                        <ul>
+                            <li>Fuel Economy trends (monthly average)</li>
+                            <li>Monthly spending breakdown</li>
+                            <li>Cost per distance over time</li>
+                        </ul>
+                    </li>
+                    <li><strong>Entry List:</strong> Chronological list of all fuel-ups or charging sessions</li>
+                    <li><strong>Monthly Aggregation:</strong> Data grouped by month for easy analysis</li>
+                </ul>
+                <div class="tip">
+                    <strong>Tip:</strong> Swipe left on any entry to delete it. The app automatically recalculates efficiency for remaining entries.
+                </div>
+            </div>
+
+            <div class="feature-box">
+                <h3>⚙️ Settings</h3>
+                <p>Customize Miles to match your preferences:</p>
+                <ul>
+                    <li><strong>Vehicles:</strong> Add, edit, or delete vehicles</li>
+                    <li><strong>Currency:</strong> Choose from multiple currencies (USD, EUR, GBP, and more)</li>
+                    <li><strong>Distance Units:</strong> Kilometers or Miles</li>
+                    <li><strong>Volume Units:</strong> Liters or Gallons (for fuel vehicles)</li>
+                </ul>
+                <div class="tip">
+                    <strong>Tip:</strong> The app automatically suggests settings based on your device's region, but you can change them anytime.
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>How to Add an Entry</h2>
+            <ol class="step-list">
+                <li>From the Dashboard, tap the <strong>+</strong> button in the top right</li>
+                <li>Select your vehicle (if you have multiple)</li>
+                <li>Enter the <strong>Date</strong> of the fuel-up or charge</li>
+                <li>Enter your <strong>Current Odometer Reading</strong> (must be higher than the last entry)</li>
+                <li>Enter the <strong>Amount</strong> of fuel in liters/gallons or electricity in kWh</li>
+                <li>Enter the <strong>Cost</strong> (optional but recommended for statistics)</li>
+                <li>Tap <strong>Save</strong></li>
+            </ol>
+
+            <div class="warning">
+                <strong>Important:</strong> The odometer reading must be greater than your previous entry. The app uses this to calculate fuel efficiency.
+            </div>
+
+            <div class="tip">
+                <strong>Tip:</strong> Your first entry for a new vehicle won't show efficiency since there's no previous reading to compare. Efficiency appears starting from the second entry.
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Understanding Your Statistics</h2>
+
+            <h3>Fuel Economy Calculation</h3>
+            <p>Miles calculates fuel economy using the formula:</p>
+            <p><code>Efficiency = (Current Odometer - Previous Odometer) / Fuel Amount</code></p>
+            <p>This gives you:</p>
+            <ul>
+                <li><strong>km/L or km/kWh:</strong> For metric users</li>
+                <li><strong>MPG or mi/kWh:</strong> For imperial users</li>
+            </ul>
+
+            <h3>Cost Metrics</h3>
+            <ul>
+                <li><strong>Total Cost:</strong> Sum of all entry costs</li>
+                <li><strong>Cost per 100km/100mi:</strong> Average cost to travel 100 units of distance</li>
+                <li><strong>Monthly Spending:</strong> Costs grouped by month in the History view</li>
+            </ul>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Metric</th>
+                        <th>What It Means</th>
+                        <th>How to Improve</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Fuel Economy</td>
+                        <td>Distance per fuel unit</td>
+                        <td>Gentle acceleration, proper tire pressure, regular maintenance</td>
+                    </tr>
+                    <tr>
+                        <td>Cost per Distance</td>
+                        <td>Cost to travel 100km/mi</td>
+                        <td>Find cheaper fuel stations, improve driving efficiency</td>
+                    </tr>
+                    <tr>
+                        <td>Monthly Spending</td>
+                        <td>Total fuel costs per month</td>
+                        <td>Track trends to budget effectively</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="section">
+            <h2>Managing Multiple Vehicles</h2>
+            <p>Miles supports tracking multiple vehicles with independent statistics:</p>
+
+            <h3>Adding More Vehicles</h3>
+            <ol class="step-list">
+                <li>Go to <strong>Settings</strong> → <strong>Vehicles</strong></li>
+                <li>Tap the <strong>+</strong> button</li>
+                <li>Enter vehicle name and type</li>
+                <li>Start adding entries for that vehicle</li>
+            </ol>
+
+            <h3>Switching Between Vehicles</h3>
+            <p>Use the dropdown menu at the top of the Dashboard or History screen to switch between vehicles. All statistics update automatically.</p>
+
+            <h3>Editing or Deleting Vehicles</h3>
+            <ul>
+                <li><strong>Edit:</strong> Tap on a vehicle in the Vehicles list to change its name or type</li>
+                <li><strong>Delete:</strong> Swipe left on a vehicle in the list and tap Delete</li>
+            </ul>
+
+            <div class="warning">
+                <strong>Warning:</strong> Deleting a vehicle permanently removes all associated entries and cannot be undone.
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>iCloud Sync</h2>
+            <p>Miles automatically syncs your data across all your Apple devices using iCloud:</p>
+
+            <h3>How It Works</h3>
+            <ul>
+                <li>All data is encrypted and stored in your personal iCloud account</li>
+                <li>Changes sync automatically when you're online</li>
+                <li>Works across iPhone, iPad, and Mac (if supported)</li>
+                <li>Your data never leaves Apple's ecosystem</li>
+            </ul>
+
+            <h3>Enabling/Disabling iCloud Sync</h3>
+            <ol class="step-list">
+                <li>Open your device <strong>Settings</strong> app</li>
+                <li>Scroll to <strong>Miles</strong> in the app list</li>
+                <li>Toggle <strong>iCloud</strong> on or off</li>
+            </ol>
+
+            <div class="tip">
+                <strong>Tip:</strong> If entries aren't syncing, check that you're signed into iCloud on all devices and have iCloud enabled for Miles.
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Frequently Asked Questions</h2>
+
+            <div class="faq-item">
+                <div class="faq-question">Q: Why doesn't my first entry show fuel economy?</div>
+                <div class="faq-answer">A: The first entry has no previous odometer reading to compare against. Fuel economy calculations begin with your second entry.</div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">Q: Can I edit an entry after saving it?</div>
+                <div class="faq-answer">A: Currently, you need to delete the entry and create a new one. Swipe left on the entry in History to delete it.</div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">Q: What happens if I delete an entry?</div>
+                <div class="faq-answer">A: The entry is permanently removed, and fuel economy is automatically recalculated for all remaining entries to ensure accuracy.</div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">Q: Can I track both a gasoline car and an electric car?</div>
+                <div class="faq-answer">A: Yes! Add multiple vehicles and set the appropriate type for each. The app automatically adjusts labels and calculations (L vs kWh, km/L vs km/kWh).</div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">Q: Why can't I enter an odometer reading lower than my last entry?</div>
+                <div class="faq-answer">A: This validation ensures accurate fuel economy calculations. If you need to add an older entry, delete newer entries first, add the old entry, then re-add the newer ones.</div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">Q: How do I export my data?</div>
+                <div class="faq-answer">A: Currently, data export isn't built into the app, but your data is included in iOS device backups. You can restore it if you switch devices.</div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">Q: Does Miles work offline?</div>
+                <div class="faq-answer">A: Yes! All features work completely offline. iCloud sync happens automatically when you're back online.</div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">Q: Can I change my currency or units after adding entries?</div>
+                <div class="faq-answer">A: Yes! All data is stored in kilometers and liters/kWh internally. Changing display units only affects how data is shown, not the underlying values.</div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">Q: How do I back up my data?</div>
+                <div class="faq-answer">A: Your data is automatically backed up through iOS device backups and iCloud sync (if enabled). No manual backup is needed.</div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">Q: What's the difference between fuel and electric vehicle types?</div>
+                <div class="faq-answer">A: Fuel vehicles track liters/gallons and show km/L or MPG. Electric vehicles track kWh and show km/kWh or mi/kWh. The calculations are identical otherwise.</div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Troubleshooting</h2>
+
+            <h3>Data Not Syncing Between Devices</h3>
+            <ul>
+                <li>Ensure you're signed into the same Apple ID on all devices</li>
+                <li>Check that iCloud is enabled for Miles in Settings</li>
+                <li>Verify you have an internet connection</li>
+                <li>Try force-quitting and reopening the app</li>
+            </ul>
+
+            <h3>Statistics Seem Incorrect</h3>
+            <ul>
+                <li>Verify all odometer readings are entered correctly and in ascending order</li>
+                <li>Check that you're using consistent units</li>
+                <li>Ensure fuel amounts are positive numbers</li>
+                <li>Try deleting and re-adding problematic entries</li>
+            </ul>
+
+            <h3>Can't Add New Entry</h3>
+            <ul>
+                <li>Make sure the odometer reading is higher than your last entry</li>
+                <li>Verify all required fields are filled in</li>
+                <li>Check that fuel amount and cost are positive numbers</li>
+            </ul>
+
+            <h3>Charts Not Displaying</h3>
+            <ul>
+                <li>You need at least 2-3 entries for meaningful charts</li>
+                <li>Ensure your entries have valid dates and values</li>
+                <li>Try scrolling to see if data exists in earlier months</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Tips for Best Results</h2>
+
+            <h3>🎯 Consistent Tracking</h3>
+            <p>Add an entry every time you fuel up or charge. Consistent data leads to accurate statistics and useful trends.</p>
+
+            <h3>📏 Accurate Odometer Readings</h3>
+            <p>Double-check your odometer reading before entering. Small errors can significantly affect efficiency calculations.</p>
+
+            <h3>💰 Include Costs</h3>
+            <p>Even though cost is optional, including it enables all financial statistics and helps you budget effectively.</p>
+
+            <h3>🔋 Full Tank Entries (Fuel Vehicles)</h3>
+            <p>For most accurate fuel economy, add entries when you fill your tank completely. Partial fills are supported but may affect accuracy.</p>
+
+            <h3>⚡ Charging Sessions (Electric Vehicles)</h3>
+            <p>For EVs, you can add entries for any charging session, not just full charges. The app calculates efficiency based on actual kWh added.</p>
+        </div>
+
+        <div class="section">
+            <h2>Supported Units</h2>
+
+            <h3>Distance</h3>
+            <ul>
+                <li>Kilometers (km)</li>
+                <li>Miles (mi)</li>
+            </ul>
+
+            <h3>Volume (Fuel Vehicles)</h3>
+            <ul>
+                <li>Liters (L)</li>
+                <li>Gallons (gal) - US gallons</li>
+            </ul>
+
+            <h3>Energy (Electric Vehicles)</h3>
+            <ul>
+                <li>Kilowatt-hours (kWh)</li>
+            </ul>
+
+            <h3>Currency</h3>
+            <p>Supports all major currencies including USD, EUR, GBP, JPY, CAD, AUD, DKK, SEK, NOK, CHF, and many more.</p>
+        </div>
+
+        <div class="contact-box">
+            <h2>Still Need Help?</h2>
+            <p>If you couldn't find the answer to your question, we're here to help!</p>
+            <p><strong>Email:</strong> contact@rosenbjerg.dk</p>
+        </div>
+
+        <div style="text-align: center; margin-top: 40px; color: #666; font-size: 14px;">
+            <p>Miles - Track Smarter, Drive Better</p>
+            <p>Version 1.0 | Last Updated: December 4, 2025</p>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VapeMixer — Support</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: #1d1d1f;
+            background-color: #f5f5f7;
+        }
+
+        header {
+            background-color: #fff;
+            border-bottom: 1px solid #d2d2d7;
+            padding: 20px 0;
+        }
+
+        header .container {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        header h1 {
+            font-size: 24px;
+            font-weight: 600;
+        }
+
+        .container {
+            max-width: 720px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        main {
+            padding: 40px 0 60px;
+        }
+
+        section {
+            background: #fff;
+            border-radius: 12px;
+            padding: 28px;
+            margin-bottom: 20px;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+        }
+
+        h2 {
+            font-size: 20px;
+            font-weight: 600;
+            margin-bottom: 12px;
+        }
+
+        h3 {
+            font-size: 16px;
+            font-weight: 600;
+            margin-top: 18px;
+            margin-bottom: 6px;
+        }
+
+        p, li {
+            font-size: 15px;
+            color: #424245;
+        }
+
+        p + p {
+            margin-top: 10px;
+        }
+
+        ul {
+            padding-left: 20px;
+            margin-top: 8px;
+        }
+
+        li {
+            margin-bottom: 6px;
+        }
+
+        details {
+            border-top: 1px solid #e8e8ed;
+            padding: 14px 0;
+        }
+
+        details:first-of-type {
+            border-top: none;
+            padding-top: 0;
+        }
+
+        details:last-of-type {
+            padding-bottom: 0;
+        }
+
+        summary {
+            font-size: 16px;
+            font-weight: 500;
+            cursor: pointer;
+            padding: 4px 0;
+        }
+
+        summary:hover {
+            color: #0071e3;
+        }
+
+        details p {
+            margin-top: 8px;
+        }
+
+        a {
+            color: #0071e3;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .contact-link {
+            display: inline-block;
+            margin-top: 12px;
+            padding: 10px 20px;
+            background: #0071e3;
+            color: #fff;
+            border-radius: 8px;
+            font-weight: 500;
+            font-size: 15px;
+        }
+
+        .contact-link:hover {
+            background: #0077ed;
+            text-decoration: none;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            font-size: 13px;
+            color: #86868b;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="container">
+        <h1>VapeMixer Support</h1>
+    </div>
+</header>
+
+<main>
+    <div class="container">
+
+        <section>
+            <h2>About VapeMixer</h2>
+            <p>VapeMixer is a recipe calculator for mixing your own vape juice. Create recipes, manage your ingredient library, and get precise measurements for every mix.</p>
+        </section>
+
+        <section>
+            <h2>Getting Started</h2>
+            <h3>Ingredients</h3>
+            <p>Start by adding your ingredients in the <strong>Ingredients</strong> tab. You can add three types:</p>
+            <ul>
+                <li><strong>Aromas</strong> — Flavor concentrates. Enter the name, manufacturer, and PG/VG ratio.</li>
+                <li><strong>Nicotine Boosters</strong> — Nicotine shots. Enter the concentration (mg/ml), PG/VG ratio, and whether it is a nicotine salt.</li>
+                <li><strong>Bases</strong> — PG/VG base liquids. Enter the name and PG/VG ratio.</li>
+            </ul>
+            <p>Default nicotine boosters and bases are included to get you started quickly.</p>
+
+            <h3>Creating a Recipe</h3>
+            <p>Switch to the <strong>Recipes</strong> tab and tap the add button. Give your recipe a name, set the container size in ml, then add aromas, nicotine, and a base. The calculator shows you the exact amount of each ingredient to use.</p>
+        </section>
+
+        <section>
+            <h2>Frequently Asked Questions</h2>
+
+            <details>
+                <summary>How is the mix calculated?</summary>
+                <p>You set the total container size and aroma percentages. Nicotine booster volume is calculated from your target nicotine strength. The base liquid fills the remaining volume. VapeMixer also tracks the overall PG/VG ratio of the final mix.</p>
+            </details>
+
+            <details>
+                <summary>Can I undo changes?</summary>
+                <p>Yes. VapeMixer supports undo so you can revert recent changes to your recipes and ingredients.</p>
+            </details>
+
+            <details>
+                <summary>Where is my data stored?</summary>
+                <p>All data is stored locally on your device. Your recipes and ingredients are never uploaded to any server.</p>
+            </details>
+
+            <details>
+                <summary>Can I use the app on multiple devices?</summary>
+                <p>The app stores data locally on each device. Recipes created on one device are not automatically synced to another.</p>
+            </details>
+
+            <details>
+                <summary>What does the PG/VG ratio mean?</summary>
+                <p>PG (Propylene Glycol) and VG (Vegetable Glycerin) are the two base liquids used in vape juice. PG carries flavor better and provides a stronger throat hit, while VG produces more vapor and has a smoother feel. The ratio affects the consistency and vaping experience of your mix.</p>
+            </details>
+
+            <details>
+                <summary>What is the difference between freebase and nicotine salt?</summary>
+                <p>Freebase nicotine is the traditional form, commonly used at lower concentrations. Nicotine salt is a smoother form that allows comfortable use at higher concentrations. VapeMixer supports both types.</p>
+            </details>
+        </section>
+
+        <section>
+            <h2>Contact</h2>
+            <p>If you have questions, feedback, or need help, feel free to reach out.</p>
+            <a class="contact-link" href="mailto:support@vapemixer.app">Email Support</a>
+        </section>
+
+    </div>
+</main>
+
+<footer>
+    &copy; 2025 VapeMixer. All rights reserved.
+</footer>
+
+</body>
+</html>

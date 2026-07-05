@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Docker-Compose on Rosenbjerg blog</title><link>https://rosenbjerg.dk/tags/docker-compose/</link><description>Recent content in Docker-Compose on Rosenbjerg blog</description><generator>Hugo -- 0.154.5</generator><language>en-UK</language><lastBuildDate>Sun, 30 Jan 2022 15:31:05 +0100</lastBuildDate><atom:link href="https://rosenbjerg.dk/tags/docker-compose/index.xml" rel="self" type="application/rss+xml"/><item><title>Containerized Home Assistant setup</title><link>https://rosenbjerg.dk/posts/containerized-home-assistant/</link><pubDate>Sun, 30 Jan 2022 15:31:05 +0100</pubDate><guid>https://rosenbjerg.dk/posts/containerized-home-assistant/</guid><description>&lt;p&gt;I recently migrated my &lt;a href="https://www.home-assistant.io/" target="_blank"&gt;Home Assistant&lt;/a&gt;
+setup from running &lt;a href="https://github.com/home-assistant/operating-system" target="_blank"&gt;Home Assistant Operating System&lt;/a&gt;
+on a &lt;a href="https://www.hardkernel.com/shop/odroid-c2/" target="_blank"&gt;Hardkernel C2&lt;/a&gt;
+, to running in containers on my NAS&lt;/p&gt;
+&lt;p&gt;The process was reasonably straight-forward, but finding up-to-date documentation and examples online are always a challenge when the platform moves fast&lt;/p&gt;
+&lt;p&gt;My Home Assistant needs are covered by just three services; &lt;a href="https://registry.hub.docker.com/r/homeassistant/home-assistant" target="_blank"&gt;home-assistant&lt;/a&gt;
+, &lt;a href="https://registry.hub.docker.com/r/deconzcommunity/deconz" target="_blank"&gt;deconz&lt;/a&gt;
+and &lt;a href="https://registry.hub.docker.com/r/nodered/node-red" target="_blank"&gt;node-red&lt;/a&gt;
+.
+I use &lt;a href="https://www.dresden-elektronik.com/wireless/software/deconz.html" target="_blank"&gt;deconz&lt;/a&gt;
+because I have a &lt;a href="https://www.phoscon.de/en/conbee2" target="_blank"&gt;ConBee II&lt;/a&gt;
+as my ZigBee gateway&lt;/p&gt;
+&lt;p&gt;For home-assistant and deconz, the images from docker hub are ready to use.
+For node-red, some additional packages are required&lt;/p&gt;</description></item><item><title>WSL2 + podman</title><link>https://rosenbjerg.dk/posts/podman-docker-desktop-alternative/</link><pubDate>Mon, 24 Jan 2022 08:34:05 +0100</pubDate><guid>https://rosenbjerg.dk/posts/podman-docker-desktop-alternative/</guid><description>&lt;p&gt;UPDATE: &lt;a href="https://podman-desktop.io/" target="_blank"&gt;&lt;code&gt;podman desktop&lt;/code&gt;&lt;/a&gt;
+is now a thing!&lt;/p&gt;
+&lt;p&gt;I had been having some issues with the docker-desktop service on Windows, where it wouldn&amp;rsquo;t autostart properly and would start into a broken state where nothing worked.
+These problems, together with the license change of the docker-desktop product and recommendations to give podman a try, led me to try podman instead.&lt;/p&gt;
+&lt;h3 id="about-podman"&gt;About podman&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://github.com/containers/podman" target="_blank"&gt;podman&lt;/a&gt;
+is a container runtime like docker but designed with a different philosophy.
+The podman model doesn&amp;rsquo;t have a main daemon that always needs to run, nor does it require running the containers with root.&lt;/p&gt;</description></item></channel></rss>

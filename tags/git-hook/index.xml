@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Git-Hook on Rosenbjerg blog</title><link>https://rosenbjerg.dk/tags/git-hook/</link><description>Recent content in Git-Hook on Rosenbjerg blog</description><generator>Hugo -- 0.154.5</generator><language>en-UK</language><lastBuildDate>Wed, 30 Mar 2022 19:20:01 +0100</lastBuildDate><atom:link href="https://rosenbjerg.dk/tags/git-hook/index.xml" rel="self" type="application/rss+xml"/><item><title>A workaround for the solution (file)</title><link>https://rosenbjerg.dk/posts/a-workaround-for-the-solution/</link><pubDate>Wed, 30 Mar 2022 19:20:01 +0100</pubDate><guid>https://rosenbjerg.dk/posts/a-workaround-for-the-solution/</guid><description>&lt;p&gt;Dealing with merge conflicts in the solution (.sln) file is a pain, and it seems I am not the only one annoyed by the cryptic format:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/dotnet/msbuild/issues/1730#issue-209239193" target="_blank"&gt;[Discussion] Clean up sln (VisualStudio solution) files&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/Nick_Craver/status/1176924151250071553" target="_blank"&gt;Nick Craver on Twitter&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Sadly Microsoft hasn&amp;rsquo;t done anything to improve the situation (yet), but people in the .NET community has played around with creating a new format for the solution file: &lt;a href="https://github.com/JeffCyr/MSBuild.SolutionSdk" target="_blank"&gt;JeffCyr/MSBuild.SolutionSdk&lt;/a&gt;
+.&lt;/p&gt;
+&lt;p&gt;While such an approach is very interesting and could be the future of .NET solutions, I wanted something a bit less drastic. At least for now&lt;/p&gt;</description></item></channel></rss>
